@@ -8,7 +8,7 @@ url: async function(url, interval) {
   
 let status = 404;
 app.get('/', (req, res) => {
-    res.status(status).send('HEY!');
+    res.status(status).send('Me Gusta');
     console.log('Ping!');
 });
 
